@@ -259,6 +259,17 @@
           
           
           <li>
+            <a href="/tags/">
+              
+              标签
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
             <a href="/categories/">
               
               分类
@@ -273,17 +284,6 @@
             <a href="/about/">
               
               关乎某
-              
-              
-            </a>
-          </li>
-          
-          
-          
-          <li>
-            <a href="/tags/">
-              
-              标签
               
               
             </a>
@@ -481,23 +481,11 @@
 <p>别让自己的灵魂 一辈子都在牢笼里度过。</p>
 </blockquote>
 <!-- <img src="/img/scenery/about_bg2.jpg" width="350" alt="about_bg2"></img> -->
-<p><img id="just_me" src="img/avatar/personal.jpg" width="350" alt="Just Me"></img></p>
-<script>
-var prefix = "<%- config.root %>"
-<% if(config['jsdelivr']) { %>
-    prefix = "<%- config.jsdelivr.jsdelivr_url %><%- config.jsdelivr.github_username %>/<%- config.jsdelivr.github_username %>.github.io/"
-<% } %>
-var just_me = document.getElementById("just_me")
-just_me.src = prefix + just_me.src;
-</script>
+<p><img id="just_me" src="/img/avatar/personal.jpg" width="350" alt="Just Me"></img></p>
 <h2 id="The-Road-is-long-and-far-away…">The Road is long and far away…</h2>
 <br/>
 <video width="100%" autoplay muted loop palysinline controls style="border-radius: 15%; object-fit:cover;">
-	<% if(config['jsdelivr']) { %>
-		<source  src="<%- config.jsdelivr.jsdelivr_url %><%- config.jsdelivr.github_username %>/<%- config.jsdelivr.github_username %>.github.io/img/scenery/life.mp4" type="video/mp4">
-	<% } else { %>
-		<source  src="<%- config.root %>img/scenery/life.mp4" type="video/mp4">
-	<% } %>
+		<source  src="/img/scenery/life.mp4" type="video/mp4">
     您的浏览器不支持 HTML5 video 标签。
 </video>
 <h2 id="Follow-With-Interest-Blogs">Follow With Interest Blogs</h2>

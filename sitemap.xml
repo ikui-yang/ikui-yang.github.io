@@ -69,7 +69,14 @@
 
   
   <url>
-    <loc>http://ikui-yang.github.io/categories/Hexo-Theme-LiveMyLife/</loc>
+    <loc>http://ikui-yang.github.io/categories/cn/</loc>
+    <lastmod>2024-02-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://ikui-yang.github.io/categories/en/</loc>
     <lastmod>2024-02-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

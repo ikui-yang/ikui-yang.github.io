@@ -151,7 +151,7 @@
 
 <!-- hack iOS CSS :active style -->
 
-	<body ontouchstart="" class="body--light body--dark">
+	<body ontouchstart="" class="body--light body--light">
 
 
 		<!-- ThemeColor -->
@@ -185,7 +185,7 @@
       ? b.pop()
       : '';
   }
-  let themeMode = 'dark';
+  let themeMode = 'light';
   if (getCookieValue('sb-color-mode') && (getCookieValue('sb-color-mode') !== themeMode)) {
     let dbody = document.body.classList;
     themeMode === 'dark' ? dbody.remove('body--dark') : dbody.add('body--dark');
@@ -248,9 +248,9 @@
           
           
           <li>
-            <a href="/categories/">
+            <a href="/archive/">
               
-              分类
+              归档
               
               
             </a>
@@ -270,9 +270,9 @@
           
           
           <li>
-            <a href="/archive/">
+            <a href="/categories/">
               
-              归档
+              分类
               
               
             </a>
@@ -459,31 +459,41 @@
         </span>
         <ul>
           
+					<br>
           <li>
             04-17
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            &nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;
             <a href="/cn/resource/Hexo-Theme-LiveMyLife/" style="color: #0085a1">
-              <span>
-                Hexo-Theme-LiveMyLife
-                
+              <span class="post-title">Hexo-Theme-LiveMyLife</span>	
+							<div class="post-content-preview">
+								
+									内容受到加密保护，请进入博文页面确认口令后查阅
+								
+							</div>
+                <!-- 
                 -- cn
-                
-              </span>
+                 -->
             </a>
-          </li>
+          </li>		
           
+					<br>
           <li>
             04-17
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            &nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;
             <a href="/cn/life/Hexo-Theme-LiveMyLife/" style="color: #0085a1">
-              <span>
-                Hexo-Theme-LiveMyLife
-                
+              <span class="post-title">Hexo-Theme-LiveMyLife</span>	
+							<div class="post-content-preview">
+								
+									
+移植 Hux Blog 的主题，感谢 Huxpro 设计了如此完美的主题。
+由 Vincent 创建的 LiveMyLife 的主题修改来源 YenYuHsuan，参考主题 dusign、Ut......
+								
+							</div>
+                <!-- 
                 -- cn
-                
-              </span>
+                 -->
             </a>
-          </li>
+          </li>		
           
         </ul>
       </div>
